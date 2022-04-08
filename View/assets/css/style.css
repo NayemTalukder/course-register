@@ -1,0 +1,213 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.resize {
+    width: 110px;
+    height: auto;
+}
+button{
+  color: white; 
+  background: black;  
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background: url("../image/cover.jpg"); /*url("https://source.unsplash.com/5i0GnoTTjSE");*/
+  background-position: center;
+  background-size: cover; 
+ 	/* Font Smoothing Below*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #af1a1a;
+}
+
+.course-description tr td a:hover {
+  color: black !important;
+}
+
+nav{
+  padding: 8px;
+}
+
+.mrt-7 {
+  margin-top: 7%;
+}
+
+.logo{
+  position: absolute;
+  float: left;
+  padding: 8px;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+.logo a{
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.form-container {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f7dcb7;
+  padding: 2vw;
+  margin-top: 33vh;
+}
+
+.form {
+  list-style: none;
+}
+
+.form li {
+  text-align: center;
+  padding: 7px;
+}
+
+.form li input{
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  border: #000;
+}
+
+/* Hides the input checkbox field on desktop and mobile */
+.hidden{
+	display: none;
+}
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  float: left;
+}
+
+nav ul li:not(:first-child) {
+  margin-left: 48px;
+}
+
+nav ul li:last-child{
+  margin-right: 24px;
+}
+
+nav ul li a{
+  /*This makes LI and the A tag the same dimensions*/
+  display: inline-block;
+  outline: none;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing:  1.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #af1a1a;
+}
+
+.login {
+  cursor: pointer;
+  background-color: lightgrey;
+  font-size: 15px;
+  font-weight: bold;
+  width: 21.5vw;
+}
+
+.login:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.logout {
+  margin-top: -6%;
+  height: 25px; 
+  width:80px; 
+  border-radius:15%;
+  cursor: pointer;
+}
+
+.logout:hover {
+  color: #af1a1a;
+}
+
+/* Basic table setup */
+table {
+  font: 1em sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-width: 30%;
+}
+
+/* All <td>s within a <table> and all <th>s within a <table>
+   Comma is not a combinator, it just allows you to target
+   several selectors with the same CSS ruleset */
+table td, table th {
+  border: 1px solid black;
+  padding: 0.5em 0.5em 0.4em;
+}
+
+/* All <th>s within <thead>s that are within <table>s */
+table thead th {
+  color: white;
+  background: black;
+}
+
+/* All <td>s preceded by another <td>,
+   within a <tbody>, within a <table> */
+table tbody td + td {
+  text-align: center;
+}
+
+/* All <td>s that are a last child,
+   within a <tbody>, within a <table> */
+table tbody td:last-child {
+  text-align: center;
+}
+
+/* All <td>s preceded by a <th>, within a <table> */
+table th + td {
+  text-align: center;
+  border-top-width: 5px;
+  color: white;
+  background: black;
+}
+
+.active {
+  color: #af1a1a;
+}
+
+
