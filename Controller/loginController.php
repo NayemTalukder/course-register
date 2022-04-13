@@ -8,7 +8,7 @@
     $result = $model->login();
 
     if($result['PASSWORD'] == $_POST['password']){
-      header("Location:../View/unfinished.php");
+      header("Location:../View/addCourses.php");
       exit();
     } else echo '<script type ="text/Javascript">alert("NOT A STUDENT OF THIS UNIVERSITY");</script>';
   }

@@ -14,7 +14,10 @@
     }else{
       $result = $model->addCourse();
       if ($result) {
-        header("Location:../View/advisedCourse.php");
+        echo "<script type='text/javascript'>
+            alert('COURSE ADDED SUCCESSFULLY');
+            history.go(-2);
+        </script>";
       } else {
         
         echo "<script type='text/javascript'>

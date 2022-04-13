@@ -6,7 +6,7 @@
           </div>
           <div class="nav-wrapper">
             <ul class="menu" >
-              <li><a href="unfinished.php" class="add-course active" >Add Courses</a></li>
+              <li><a href="addCourses.php" class="add-course active" >Add Courses</a></li>
               <li><a  href="advisedCourse.php" class="advised-course">Advised Courses</a></li>
               <li><a  href="finishedCourse.php" class="finished-course">Finished Courses</a></li>
               <li><a href="courses.php" class="courses">Course Description</a></li>
