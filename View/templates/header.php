@@ -11,6 +11,7 @@
               <li><a  href="finishedCourse.php" class="finished-course">Finished Courses</a></li>
               <li><a href="courses.php" class="courses">Course Description</a></li>
               <li><a href="prereq.php" class="prereq-course">Prerequisite Courses</a></li>
+              <li><a href="test.php" class="test">Test</a></li>
               <li><a href="../index.php" ><button class="logout" type="submit" id="logout"><b>Log out</b></button></a></li>
 
             </ul>

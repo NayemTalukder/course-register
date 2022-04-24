@@ -129,7 +129,7 @@ nav ul li a{
   outline: none;
   color: #000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing:  1.2px;
   font-weight: 600;
   text-transform: uppercase;
@@ -166,7 +166,7 @@ nav ul li a:hover {
 
 /* Basic table setup */
 table {
-  font: 1em sans-serif;
+  font: 1rem sans-serif;
   border-collapse: collapse;
   border-spacing: 0;
   min-width: 30%;
@@ -177,7 +177,7 @@ table {
    several selectors with the same CSS ruleset */
 table td, table th {
   border: 1px solid black;
-  padding: 0.5em 0.5em 0.4em;
+  padding: 0.5rem 0.5rem 0.4rem;
 }
 
 /* All <th>s within <thead>s that are within <table>s */
@@ -210,4 +210,103 @@ table th + td {
   color: #af1a1a;
 }
 
+.test-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
 
+.test-heading {
+  color: white;
+  background: black;
+  padding: 0.5rem 0.5rem 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-heading h4 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.test-body, .result-body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.test-with {
+  margin-top: .5rem;
+}
+
+.result-container {
+  border: 1px solid black;
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* background-color: transparent; */
+  background-color: black;
+  /* border: 1px solid transparent; */
+  border: 1px solid black;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.drp {
+  color: black;
+  background-color: #fff !important;
+}
+
+.drp:hover {
+  color: #fff;
+  background-color: black !important;
+}
+
+.width-40 {
+  width: 40% !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-1_5 {
+  margin-left: 1.55rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-body {
+    font-size: 1.25rem;
+}
+
+.d-none {
+  display: none;
+}
